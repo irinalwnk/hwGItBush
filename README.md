@@ -74,6 +74,7 @@ date +%x" "%X
   8) Вывести список содержимого папки
   13) переместить любые 2 файла, которые вы создали, в любую другую папку.)*
 
+```
 touch script.txt	
 vi script.txt	#!/bin/bash
                 mkdir dt1_2
@@ -85,5 +86,6 @@ vi script.txt	#!/bin/bash
 		ls
 		mv {t1.txt,j2.json} ./st3
 chmod +x ./script.txt	
-./script.txt	
+./script.txt
+```
 	
